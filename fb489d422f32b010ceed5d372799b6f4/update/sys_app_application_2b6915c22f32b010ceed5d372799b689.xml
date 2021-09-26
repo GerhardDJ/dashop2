@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_110236_da_shop.das_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-26 04:03:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b6915c22f32b010ceed5d372799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Da Shop</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Da Shop" source="x_110236_da_shop">fb489d422f32b010ceed5d372799b6f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Da Shop">fb489d422f32b010ceed5d372799b6f4</sys_scope>
+        <sys_update_name>sys_app_application_2b6915c22f32b010ceed5d372799b689</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-26 04:03:09</sys_updated_on>
+        <title>Da Shop</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
