@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_110236_da_shop_master_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="active" table="x_110236_da_shop_master_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Active</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,12 +27,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>active</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_110236_da_shop_master_table</name>
@@ -42,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>0</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-26 04:02:41</sys_created_on>
-        <sys_id>6459d5062f32b010ceed5d372799b62f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_110236_da_shop_master_table</sys_name>
+        <sys_created_on>2021-09-26 05:59:29</sys_created_on>
+        <sys_id>daa3fd4e2fb2b010ceed5d372799b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active</sys_name>
         <sys_package display_value="Da Shop" source="x_110236_da_shop">fb489d422f32b010ceed5d372799b6f4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Da Shop">fb489d422f32b010ceed5d372799b6f4</sys_scope>
-        <sys_update_name>sys_dictionary_x_110236_da_shop_master_table_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-09-26 08:44:36</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_110236_da_shop_master_table_active</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-26 05:59:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="shoots" table="x_110236_da_shop_players" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>shoots</element>
+            <name>x_110236_da_shop_players</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-26 22:19:41</sys_created_on>
+            <sys_id>f564155e2f7af010ceed5d372799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>shoots</sys_name>
+            <sys_package display_value="Da Shop" source="x_110236_da_shop">fb489d422f32b010ceed5d372799b6f4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Da Shop">fb489d422f32b010ceed5d372799b6f4</sys_scope>
+            <sys_update_name>sys_choice_x_110236_da_shop_players_shoots</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-26 22:19:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shoots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Both</label>
+            <language>en</language>
+            <name>x_110236_da_shop_players</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-26 22:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcc45d5e2f7af010ceed5d372799b678</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-26 22:21:30</sys_updated_on>
+            <value>both</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shoots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Left</label>
+            <language>en</language>
+            <name>x_110236_da_shop_players</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-26 22:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd64155e2f7af010ceed5d372799b615</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-26 22:20:41</sys_updated_on>
+            <value>left</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>shoots</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Right</label>
+            <language>en</language>
+            <name>x_110236_da_shop_players</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-26 22:21:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3a41d5e2f7af010ceed5d372799b688</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-26 22:21:04</sys_updated_on>
+            <value>right</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
